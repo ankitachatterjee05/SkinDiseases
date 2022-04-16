@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		400A994A280B34C800FF5897 /* MultiTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400A9949280B34C800FF5897 /* MultiTabView.swift */; };
+		400A994C280B357A00FF5897 /* WebViewCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400A994B280B357A00FF5897 /* WebViewCode.swift */; };
+		400A994E280B3BA900FF5897 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400A994D280B3BA800FF5897 /* FormView.swift */; };
 		403396C827D6E5D800D88DE0 /* SkinDiseasesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403396C727D6E5D800D88DE0 /* SkinDiseasesApp.swift */; };
-		403396CA27D6E5D900D88DE0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403396C927D6E5D900D88DE0 /* ContentView.swift */; };
+		403396CA27D6E5D900D88DE0 /* CallAIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403396C927D6E5D900D88DE0 /* CallAIView.swift */; };
 		403396CC27D6E5E100D88DE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 403396CB27D6E5E100D88DE0 /* Assets.xcassets */; };
 		403396CF27D6E5E100D88DE0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 403396CE27D6E5E100D88DE0 /* Preview Assets.xcassets */; };
 		403396D727D6E69000D88DE0 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 403396D627D6E69000D88DE0 /* SwiftyJSON */; };
@@ -16,9 +19,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		400A9949280B34C800FF5897 /* MultiTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiTabView.swift; sourceTree = "<group>"; };
+		400A994B280B357A00FF5897 /* WebViewCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewCode.swift; sourceTree = "<group>"; };
+		400A994D280B3BA800FF5897 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
 		403396C427D6E5D800D88DE0 /* SkinDiseases.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkinDiseases.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		403396C727D6E5D800D88DE0 /* SkinDiseasesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinDiseasesApp.swift; sourceTree = "<group>"; };
-		403396C927D6E5D900D88DE0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		403396C927D6E5D900D88DE0 /* CallAIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallAIView.swift; sourceTree = "<group>"; };
 		403396CB27D6E5E100D88DE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		403396CE27D6E5E100D88DE0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -56,7 +62,10 @@
 			isa = PBXGroup;
 			children = (
 				403396C727D6E5D800D88DE0 /* SkinDiseasesApp.swift */,
-				403396C927D6E5D900D88DE0 /* ContentView.swift */,
+				403396C927D6E5D900D88DE0 /* CallAIView.swift */,
+				400A9949280B34C800FF5897 /* MultiTabView.swift */,
+				400A994D280B3BA800FF5897 /* FormView.swift */,
+				400A994B280B357A00FF5897 /* WebViewCode.swift */,
 				403396CB27D6E5E100D88DE0 /* Assets.xcassets */,
 				403396CD27D6E5E100D88DE0 /* Preview Content */,
 			);
@@ -149,7 +158,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				403396CA27D6E5D900D88DE0 /* ContentView.swift in Sources */,
+				400A994C280B357A00FF5897 /* WebViewCode.swift in Sources */,
+				400A994A280B34C800FF5897 /* MultiTabView.swift in Sources */,
+				400A994E280B3BA900FF5897 /* FormView.swift in Sources */,
+				403396CA27D6E5D900D88DE0 /* CallAIView.swift in Sources */,
 				403396C827D6E5D800D88DE0 /* SkinDiseasesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
